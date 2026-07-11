@@ -4,7 +4,7 @@ Deterministic, DCC-neutral texture processing built on OpenImageIO and
 OpenColorIO. Use it between generated/downloaded source images and host
 material binding.
 
-![Texture pipeline](docs/texture-pipeline.png)
+![Texture maps moving through color conversion and mip generation toward a DCC asset](docs/images/dcc-texture-pipeline-showcase.webp)
 
 ## Included skills
 
