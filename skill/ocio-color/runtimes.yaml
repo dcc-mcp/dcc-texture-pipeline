@@ -1,0 +1,14 @@
+runtimes:
+  - name: ociocheck
+    type: binary
+    binary: ociocheck
+    description: OpenColorIO configuration validator.
+    optional: false
+    guidance: Install OpenColorIO and expose ociocheck on PATH; the skill never installs binaries.
+  - name: oiiotool
+    type: binary
+    binary: oiiotool
+    description: OpenImageIO processor compiled with OpenColorIO support.
+    optional: false
+    guidance: Install OpenImageIO with OCIO support and expose oiiotool on PATH.
+

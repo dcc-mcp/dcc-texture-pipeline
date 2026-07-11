@@ -1,0 +1,14 @@
+runtimes:
+  - name: iinfo
+    type: binary
+    binary: iinfo
+    description: OpenImageIO image inspection command.
+    optional: false
+    guidance: Install OpenImageIO and expose iinfo on PATH; the skill never installs binaries.
+  - name: maketx
+    type: binary
+    binary: maketx
+    description: OpenImageIO tiled mipmapped texture builder.
+    optional: false
+    guidance: Install OpenImageIO and expose maketx on PATH; the skill never installs binaries.
+

@@ -12,6 +12,7 @@ metadata:
     tags: [opencolorio, ocio, aces, color, image, pipeline]
     search-hint: "validate OCIO config, ACEScg conversion, convert color space, color pipeline audit"
     tools: tools.yaml
+    runtimes: runtimes.yaml
 ---
 
 # OpenColorIO Color

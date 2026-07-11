@@ -12,6 +12,7 @@ metadata:
     tags: [openimageio, texture, tx, mipmap, image, pipeline]
     search-hint: "inspect texture metadata, make tx texture, tiled mipmaps, OpenImageIO, renderer texture"
     tools: tools.yaml
+    runtimes: runtimes.yaml
 ---
 
 # OpenImageIO Textures
