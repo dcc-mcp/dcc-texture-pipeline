@@ -1,3 +1,9 @@
+# NOT PUBLISHED TO PYPI - this repository is an agent skill pack, not a
+# distributable Python package. There is no importable module under src/:
+# the deliverable is the markdown skill definitions under skill/, which are
+# consumed from the repo or the skill marketplace, never via pip install.
+# Publishing it would permanently occupy a dcc-mcp namespace slot on PyPI
+# while shipping an empty metadata-only wheel. Tracked in PIP-3630.
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
