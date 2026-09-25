@@ -70,3 +70,14 @@ flowchart LR
 Install OpenImageIO and OpenColorIO command-line tools, then add both `skill/*`
 directories to the DCC-MCP skill path.
 
+## PyPI status: not published
+
+This repository is an **agent skill pack**, not a distributable Python package.
+It contains no importable module under `src/` — the deliverable is the set of
+markdown skill definitions under `skill/`, which agents load from the repository
+or the skill marketplace rather than via `pip install`.
+
+It is therefore intentionally **not published to PyPI**, and no release
+workflow exists for that purpose. Tracked in [PIP-3630][pip3630].
+
+[pip3630]: https://monica.woa.com/issues/01a0d880-e0c8-7ee2-8f7c-ccc783e279dc
