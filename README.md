@@ -78,6 +78,4 @@ markdown skill definitions under `skill/`, which agents load from the repository
 or the skill marketplace rather than via `pip install`.
 
 It is therefore intentionally **not published to PyPI**, and no release
-workflow exists for that purpose. Tracked in [PIP-3630][pip3630].
-
-[pip3630]: https://monica.woa.com/issues/01a0d880-e0c8-7ee2-8f7c-ccc783e279dc
+workflow exists for that purpose.
