@@ -3,7 +3,7 @@
 # the deliverable is the markdown skill definitions under skill/, which are
 # consumed from the repo or the skill marketplace, never via pip install.
 # Publishing it would permanently occupy a dcc-mcp namespace slot on PyPI
-# while shipping an empty metadata-only wheel. Tracked in PIP-3630.
+# while shipping an empty metadata-only wheel.
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
